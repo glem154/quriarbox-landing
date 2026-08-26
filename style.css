@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-primary: #F95C19;
+    --color-title: #222132;
+    --color-text: #7B7A8B;
+    --color-text-muted: #D9D9D9;
+    --color-bg-main: #ffffff;
+}
