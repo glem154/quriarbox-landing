@@ -12,6 +12,7 @@
     --color-text: #7B7A8B;
     --color-text-muted: #D9D9D9;
     --color-bg-main: #ffffff;
+    --color-hero: #261134;
     --font-main: 'Rubik', sans-serif;
     --font-accent: 'Raleway', sans-serif;
     --font-second: 'Oxanium', sans-serif;
@@ -108,4 +109,72 @@ h6 {
 
 .header__btn-contact:hover {
     color: var(--color-text);
+}
+
+/* Hero */
+
+.hero {
+    overflow: hidden;
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero__content {
+    max-width: 520px;
+    flex-shrink: 0;
+    margin-top: 90px;
+
+}
+
+.hero__media {
+    flex-shrink: 0;
+    margin-right: -120px;
+
+}
+
+.hero__img {
+    width: 958px;
+    height: auto;
+    display: block;
+}
+
+.hero__title {
+    font-family: var(--font-accent);
+    color: var(--color-title);
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.hero__title-bold {
+    font-weight: 700;
+}
+
+.hero__text {
+    padding-top: 16px;
+    font-family: var(--font-accent);
+    color: #4d4d4d;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.hero__btn {
+    display: flex;
+    margin-top: 41px;
+    border-radius: 5px;
+    width: 176px;
+    height: 49px;
+    background-color: var(--color-primary);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-bg-main);
+    font-family: var(--font-second);
+    font-size: 20px;
 }
