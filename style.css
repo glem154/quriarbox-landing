@@ -462,16 +462,19 @@ h6 {
     border-radius: 16px;
 }
 
-.testimonial-card--active {
-    opacity: 1;
-}
+
 
 .testimonial-card__title {
     font-family: var(--font-raleway);
-    color: var(--color-primary);
     font-weight: bold;
     font-size: 25px;
     line-height: 1.2;
+}
+
+.testimonial-card--active,
+.testimonial-card__title {
+    color: var(--color-primary);
+    opacity: 1;
 }
 
 .testimonial-card__text {
@@ -594,8 +597,7 @@ h6 {
 .callback__input:focus,
 .callback__textarea:focus {
     outline: none;
-    border: 2px solid var(--color-primary);
-    color: var(--color-title);
+    border-color: var(--color-primary);
 }
 
 .callback__btn {
@@ -611,4 +613,5 @@ h6 {
 
 .callback__btn:hover {
     background-color: #d84b12;
+    transition: background-color 0.3s ease;
 }
