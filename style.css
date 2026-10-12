@@ -360,6 +360,7 @@ h6 {
     align-items: center;
     text-align: center;
     padding-top: 126px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .video-banner__btn {
@@ -465,16 +466,19 @@ h6 {
 
 
 .testimonial-card__title {
+    color: var(--color-title);
     font-family: var(--font-raleway);
     font-weight: bold;
     font-size: 25px;
     line-height: 1.2;
 }
 
-.testimonial-card--active,
-.testimonial-card__title {
-    color: var(--color-primary);
+.testimonial-card--active {
     opacity: 1;
+}
+
+.testimonial-card--active .testimonial-card__title {
+    color: var(--color-primary);
 }
 
 .testimonial-card__text {
